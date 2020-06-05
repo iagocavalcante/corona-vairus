@@ -1,0 +1,17 @@
+{
+  "name": "CoronaVairus",
+  "displayName": "CoronaVairus",
+  "expo": {
+    "name": "CoronaVairus",
+    "slug": "CoronaVairus",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
