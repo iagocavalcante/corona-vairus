@@ -3406,14 +3406,7 @@ expo-permissions@~9.0.1:
   resolved "https://registry.yarnpkg.com/expo-permissions/-/expo-permissions-9.0.1.tgz#dc10b58654bbe39bbbed5827369942b01b08055e"
   integrity sha512-CosJgy8XQRN/OFG2JTQDcFxz3XTGi27coCMym/hVXWtQfk0z6PwdRG5IXHfLGuSckwIcgmirrwm2+Zc0X3MmNg==
 
-expo-splash-screen@0.2.3:
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/expo-splash-screen/-/expo-splash-screen-0.2.3.tgz#3f913652596de128828499db3a6a9da1cb201d61"
-  integrity sha512-gKSD+RqShvCopHJssw32ugKJcAT9zHGi6ZkhG3N+VvJSHisZcMFFMcQAzMPdt6IntGjOnib/f79NVCsl6pXyTA==
-  dependencies:
-    "@expo/configure-splash-screen" "~0.1.0"
-
-expo-splash-screen@^0.3.1:
+expo-splash-screen@0.3.1, expo-splash-screen@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/expo-splash-screen/-/expo-splash-screen-0.3.1.tgz#4dd79d9d1ab8135281f7cc5889a68e3003223f37"
   integrity sha512-j87n6utSq8irvx9dA3YvFwHsqT9c/Cc/QnmpZHB0g3mPh3QBWReKgR3x41tHnkLMKHAi9Au9D4k/o615kUNeDg==
@@ -3428,10 +3421,10 @@ expo-sqlite@~8.2.1:
     "@expo/websql" "^1.0.1"
     lodash "^4.17.15"
 
-expo-updates@0.2.7:
-  version "0.2.7"
-  resolved "https://registry.yarnpkg.com/expo-updates/-/expo-updates-0.2.7.tgz#8197efebbb548181954f0aa5efbd2c02070bed9c"
-  integrity sha512-6CACrRpx3Xj9zoYC1zuLyGfLBL4fvBRW3A1rGV9z573RIhd4Utq4XtlkzQ/VaK4Utw9cClqWZgWfwnanGmulnQ==
+expo-updates@0.2.11:
+  version "0.2.11"
+  resolved "https://registry.yarnpkg.com/expo-updates/-/expo-updates-0.2.11.tgz#8131b191049c1384d83b9b992bb33c1d1d86e3c7"
+  integrity sha512-j3Zenpm7qdnECOQsCk3YMnR0hfBqchHEQ31/QhpgSbrX5zSWhO6kY+IyGQKeCNnpZc8GXyJIlEu5AfUvFe1UdQ==
   dependencies:
     fbemitter "^2.1.1"
     uuid "^3.4.0"
