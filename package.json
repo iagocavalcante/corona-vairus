@@ -31,8 +31,8 @@
   },
   "devDependencies": {
     "@babel/core": "7.10.5",
-    "babel-jest": "26.1.0",
-    "jest": "26.1.0",
+    "babel-jest": "26.2.2",
+    "jest": "26.2.2",
     "react-test-renderer": "16.13.1"
   },
   "jest": {
