@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Header, HeaderHour, HeaderTitle, HeaderNumber } from '../../assets/styles';
 import Cards from '../../components/card';
-import { CardContainer } from './style';
+import { CardContainer } from './components/style';
 import BarChart from '../../components/chart';
 import { CardNumber } from '../../components/card/style';
 import { ScrollView } from 'react-native';

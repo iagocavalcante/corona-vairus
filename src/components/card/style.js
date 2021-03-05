@@ -1,13 +1,19 @@
 import styled from "styled-components";
 import { Dimensions } from "react-native";
 
-const screenWidth = Dimensions.get('window').width
-const screenHeight = Dimensions.get('window').height
+const screenWidth = Dimensions.get("window").width;
+const screenHeight = Dimensions.get("window").height;
 
 export const Card = styled.View`
   margin-top: 10px;
-  height: ${props => props.cardSize == 'sm' ? `${screenHeight / 4.5}px;`  : `${screenHeight / 7}px;`  }
-  width: ${props => props.cardSize == 'sm' ? `${screenWidth / 2.3}px;`  : `${screenWidth - 30}px;`  }
+  height: ${(props) =>
+    props.cardSize == "sm"
+      ? `${screenHeight / 4.5}px;`
+      : `${screenHeight / 7}px;`}
+  width: ${(props) =>
+    props.cardSize == "sm"
+      ? `${screenWidth / 2.3}px;`
+      : `${screenWidth - 30}px;`}
   background-color: #ffffff;
   shadow-color: rgba(0, 0, 0, 0.08);
   shadow-offset: 0px 2px;
@@ -25,8 +31,8 @@ export const CardTitle = styled.Text`
   font-weight: normal;
   font-style: normal;
   line-height: 17px;
-  letterSpacing: 0;
-  textAlign: left;
+  letter-spacing: 0;
+  text-align: left;
   color: #696969;
 `;
 
@@ -37,7 +43,7 @@ export const CardNumber = styled.Text`
   line-height: 48px;
   letter-spacing: 0;
   text-align: left;
-  color: ${props => props.green ? '#34c360' : '#fa5252'}
+  color: ${(props) => (props.green ? "#34c360" : "#fa5252")};
 `;
 
 export const CardChart = styled.View`
@@ -50,9 +56,7 @@ export const CardChart = styled.View`
   color: #fa5252;
 `;
 
-export const CardContainer = styled.View`
-
-`;
+export const CardContainer = styled.View``;
 
 export const CardPercentage = styled.View`
   flex: 2;

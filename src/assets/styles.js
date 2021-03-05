@@ -1,4 +1,4 @@
-import styled from 'styled-components/native';
+import styled from "styled-components/native";
 
 export const Header = styled.View`
   height: 316px;
@@ -9,45 +9,43 @@ export const Header = styled.View`
 `;
 
 export const HeaderHour = styled.Text`
-  fontSize: 14;
-  fontWeight: normal;
-  fontStyle: normal;
-  lineHeight: 17;
-  letterSpacing: 0;
-  textAlign: left;
+  font-size: 14;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 17;
+  letter-spacing: 0;
+  text-align: left;
   color: #ffffff;
 `;
 
 export const HeaderTitle = styled.Text`
-  fontSize: 23;
-  fontWeight: normal;
-  fontStyle: normal;
-  lineHeight: 28;
-  letterSpacing: 0;
-  textAlign: left;
+  font-size: 23;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 28;
+  letter-spacing: 0;
+  text-align: left;
   color: #ffffff;
 `;
 
 export const HeaderNumber = styled.Text`
-  fontSize: 50;
-  fontWeight: normal;
-  fontStyle: normal;
-  lineHeight: 60;
-  letterSpacing: 0;
-  textAlign: left;
+  font-size: 50;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 60;
+  letter-spacing: 0;
+  text-align: left;
   color: #ffffff;
 `;
 
 export const Container = styled.View`
-  background-color: #F2F6F8;
-  flex: 1;s
+  background-color: #f2f6f8;
+  flex: 1;
 `;
 
-export const styles = {
-
-}
+export const styles = {};
 
 export const colors = {
-  headerBackground: '#D81E34',
-  appBackground: '#F2F6F8'
-}
+  headerBackground: "#D81E34",
+  appBackground: "#F2F6F8",
+};
