@@ -7224,10 +7224,10 @@ react-native-appearance@~0.3.3:
     invariant "^2.2.4"
     use-subscription "^1.0.0"
 
-react-native-chart-kit@6.4.1:
-  version "6.4.1"
-  resolved "https://registry.yarnpkg.com/react-native-chart-kit/-/react-native-chart-kit-6.4.1.tgz#ca8d2c12f5b8fa58e2ad3f0262417fd4f0f608c4"
-  integrity sha512-1dZg4AOTx3RhQxED/Xzy+A8Qlp2kxMZuCH1CO5vnUqtpeyJwSUNDn8YMu4SkLWirL2XdMb0/IPtz6+KQmol8Jg==
+react-native-chart-kit@6.12.0:
+  version "6.12.0"
+  resolved "https://registry.yarnpkg.com/react-native-chart-kit/-/react-native-chart-kit-6.12.0.tgz#187a4987a668a85b7e93588c248ed2c33b3a06f6"
+  integrity sha512-nZLGyCFzZ7zmX0KjYeeSV1HKuPhl1wOMlTAqa0JhlyW62qV/1ZPXHgT8o9s8mkFaGxdqbspOeuaa6I9jUQDgnA==
   dependencies:
     lodash "^4.17.13"
     paths-js "^0.4.10"
