@@ -14,8 +14,8 @@
     "expo": "38.0.8",
     "expo-splash-screen": "0.4.0",
     "expo-updates": "0.2.12",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
     "react-native": "0.63.2",
     "react-native-chart-kit": "6.4.1",
     "react-native-gesture-handler": "1.7.0",
@@ -33,7 +33,7 @@
     "@babel/core": "7.10.5",
     "babel-jest": "26.2.2",
     "jest": "26.2.2",
-    "react-test-renderer": "16.13.1"
+    "react-test-renderer": "19.1.1"
   },
   "jest": {
     "preset": "react-native"
