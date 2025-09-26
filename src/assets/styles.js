@@ -9,30 +9,30 @@ export const Header = styled.View`
 `;
 
 export const HeaderHour = styled.Text`
-  font-size: 14;
+  font-size: 14px;
   font-weight: normal;
   font-style: normal;
-  line-height: 17;
+  line-height: 17px;
   letter-spacing: 0;
   text-align: left;
   color: #ffffff;
 `;
 
 export const HeaderTitle = styled.Text`
-  font-size: 23;
+  font-size: 23px;
   font-weight: normal;
   font-style: normal;
-  line-height: 28;
+  line-height: 28px;
   letter-spacing: 0;
   text-align: left;
   color: #ffffff;
 `;
 
 export const HeaderNumber = styled.Text`
-  font-size: 50;
+  font-size: 50px;
   font-weight: normal;
   font-style: normal;
-  line-height: 60;
+  line-height: 60px;
   letter-spacing: 0;
   text-align: left;
   color: #ffffff;

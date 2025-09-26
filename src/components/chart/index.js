@@ -5,19 +5,30 @@ import {
   Text,
   Dimensions
 } from 'react-native';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const tooltipWidth = 100;
-const barWidth = 10;
+let barWidth = 10;
 
 const BarChart = (props) => {
   const [isHover, setIsHover] = useState(false);
   const [isHoverCovered, setIsHoverCovered] = useState(false);
   const [isHoverCoveredRight, setIsHoverCoveredRight] = useState(false);
   const [isHoverCoveredLeft, setIsHoverCoveredLeft] = useState(false);
+  const [screenDimensions, setScreenDimensions] = useState(Dimensions.get('window'));
+
+  useEffect(() => {
+    const subscription = Dimensions.addEventListener('change', ({window}) => {
+      setScreenDimensions(window);
+      // Adjust bar width based on screen size
+      barWidth = window.width < 350 ? 8 : 10;
+    });
+
+    return () => subscription?.remove();
+  }, []);
 
   function onPressIn (e) {
-    const screenWidth = Dimensions.get('window').width;
+    const screenWidth = screenDimensions.width;
 
     setIsHover(true);
     setIsHoverCoveredLeft(e.nativeEvent.pageX < (tooltipWidth / 2 + 10))

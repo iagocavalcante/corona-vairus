@@ -13,10 +13,10 @@ export default function Routes() {
     <NavigationContainer>
       <Tab.Navigator
         initialRouteName="Home"
-        tabBarOptions={{
-          activeTintColor: "#473F97",
-          showLabel: false,
-          lazyLoad: true,
+        screenOptions={{
+          tabBarActiveTintColor: "#473F97",
+          tabBarShowLabel: false,
+          lazy: true,
         }}
       >
         <Tab.Screen

@@ -9,6 +9,6 @@ export const CardContainer = styled.View`
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 15px;
-  position: absolute;
-  top: ${screenHeight / 4.2}px;
+  margin-top: -50px;
+  padding-bottom: 100px;
 `;
