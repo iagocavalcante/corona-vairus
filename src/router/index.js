@@ -2,7 +2,7 @@ import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
-import Icon from "react-native-vector-icons/FontAwesome5";
+import { FontAwesome5 } from "@expo/vector-icons";
 
 import Home from "../screens/HomeScreen";
 
@@ -24,7 +24,7 @@ export default function Routes() {
           component={Home}
           options={{
             tabBarIcon: ({ color, size }) => (
-              <Icon name="rss" color={color} size={26} />
+              <FontAwesome5 name="rss" color={color} size={26} />
             ),
           }}
         />
@@ -33,7 +33,7 @@ export default function Routes() {
           component={Home}
           options={{
             tabBarIcon: ({ color, size }) => (
-              <Icon name="bell" color={color} size={26} />
+              <FontAwesome5 name="bell" color={color} size={26} />
             ),
           }}
         />

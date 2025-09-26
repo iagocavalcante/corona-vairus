@@ -1,6 +1,4 @@
 {
-  "name": "CoronaVairus",
-  "displayName": "CoronaVairus",
   "expo": {
     "name": "CoronaVairus",
     "slug": "CoronaVairus",
@@ -12,6 +10,7 @@
     ],
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "sdkVersion": "54.0.0"
   }
 }
